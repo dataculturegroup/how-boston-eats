@@ -241,8 +241,14 @@ section.smallprint {
 @media only screen and (max-width: 800px) and (orientation: portrait) {
   header{
     &.hero {
+      max-height: inherit;
       h1 {
-        max-width: 90% !important;
+        position: relative;
+        display: block;
+        bottom: auto;
+        left: auto;
+        padding: 2rem 1rem;
+        font-size: 2rem;
       }
     }
   }
@@ -311,5 +317,41 @@ section.scroller {
     background-color: var(--color-accent);
     color: var(--color-background);
     margin: 0 3rem;
+  }
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin-top: 4rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    opacity: 0.9;
+
+    .copyright {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(250, 247, 242, 0.3);
+        font-size: 0.9rem;
+        opacity: 0.8;
+    }
+
+    a {
+        color: var(--color-accent);
+        text-decoration: underline;
+    }
+
+}
+
+nav {
+  background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-accent) 100%);
+  padding: 10px;
+  font-size: 0.9rem;
+
+  a {
+    color: var(--color-background);
+    text-decoration: none;
   }
 }
