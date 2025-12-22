@@ -14,6 +14,7 @@ Prepared by Rahul Bhargava for Northeastern Journalism 2301 - Visual Storytellin
 
 ## Changelog
  
- * v1.2.0: add animatons on blockquote, h2, and smallprint
+ * v1.2.1: fix header hero layout for mobile
+ * v1.2.0: add animations on blockquote, h2, and smallprint
  * v1.1.0: support captions on carousel
  * v1.0.0: first release
